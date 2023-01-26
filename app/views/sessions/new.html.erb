@@ -1,0 +1,9 @@
+<h1>Login</h1>
+
+<%= form_tag '/login' do %>
+
+  Email: <%= text_field_tag :email, "", :class => "inputField" %>
+  Password: <%= password_field_tag :password, "", :class => "inputField" %>
+  <%= submit_tag "Submit", :class => "btn btn-success submitButton" %>
+
+<% end %>
