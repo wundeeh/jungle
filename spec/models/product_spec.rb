@@ -68,10 +68,6 @@ RSpec.describe Product, type: :model do
       @product.category = nil
       @product.save
 
-      puts "-----"
-      puts @product.errors.full_messages
-      puts "-----"
-
       expect(@product).to_not be_valid
       expect(@product.errors[:category]).to include("can't be blank")
     end
