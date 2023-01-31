@@ -4,6 +4,10 @@ class ProductsController < ApplicationController
   def index
     @products = Product.all.order(created_at: :desc)
 
+    puts "-----"
+    puts @products.count
+    puts "-----"
+
   end
 
   def show
