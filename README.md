@@ -2,6 +2,16 @@
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
+## Features
+
+User registration and login form, a non-logged in user will be sent back to the login page whenver trying to access any of the base pages
+
+To access admin features click on the "admin" dropdown menu in the header and input the username and password provided below
+------------------------------------------
+Username: "Jungle"
+Password: "book"
+------------------------------------------
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
@@ -29,3 +39,5 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+- Cypress
+- Database cleaner
