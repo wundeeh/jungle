@@ -7,10 +7,10 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 User registration and login form, a non-logged in user will be sent back to the login page whenver trying to access any of the base pages
 
 To access admin features click on the "admin" dropdown menu in the header and input the username and password provided below
-------------------------------------------
+
 Username: "Jungle"
 Password: "book"
-------------------------------------------
+
 
 ## Setup
 
@@ -41,3 +41,20 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Stripe
 - Cypress
 - Database cleaner
+
+## Screenshots
+
+Signup Page
+!["Signup](https://github.com/wundeeh/jungle/blob/master/docs/1_Signup_Page.png?raw=true)
+
+Home Page
+!["Home"](https://github.com/wundeeh/jungle/blob/master/docs/2_Home_Page.png?raw=true)
+
+Product Page
+!["Product"](https://github.com/wundeeh/jungle/blob/master/docs/2_Product_Page.png?raw=true)
+
+Admin Page
+!["Admin"](https://github.com/wundeeh/jungle/blob/master/docs/4_Admin_Page.png?raw=true)
+
+Cart Page
+!["Cart"](https://github.com/wundeeh/jungle/blob/master/docs/5_Item_In_Cart.png?raw=true)
